@@ -1,0 +1,118 @@
+
+header{
+    background-color: #CBCACC;
+    height: 80px;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+}
+body{
+    margin: 0px;
+    font-family: Arial;
+}
+section{
+    height: auto;
+}
+footer{
+    height: 110px;
+    background-color: #CBCACC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+}
+#txtrodape{
+    margin: auto;
+    font: normal 12pt Arial;
+}
+.bloco{
+    background-color: #EEEDEF;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.noticia{
+    height: 230px;
+    width: 200px;
+    background-color: white;
+    margin: 10px;
+    display:inline-block;
+    font: normal 9pt Arial;
+    border-radius: 5px;
+}
+.conteudo{
+    padding: 10px;
+}
+h4{
+    text-align: center;
+}
+button{
+    background-color: #CBCACC;
+    height: 30px;
+    width: 100px;
+    border:none;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+button:hover{
+    background-color: #a29ba8;
+    color: white;
+}
+#botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    margin: 0px;
+}
+#container_esquerdo{
+    display:flex;
+    align-items:center;
+}
+#barrapesquisa{
+    border: none;
+    border-radius: 10px;
+    height: 20px;
+}
+input{
+    margin-left: 15px;
+    float:left;
+    padding:5px 20px 5px 5px
+}
+#menu li {
+    display: inline-block;
+    margin: 0 5px;
+}
+#menu li a {
+    text-decoration: none;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+#fundo{
+    background-color: white;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#formulario{
+    background-color: #CBCACC;
+    height: 85%;
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+#dados{
+    background-color: #957e9e;
+    height: 85%;
+    width: 45%;
+    border-radius: 10px;
+    
+}
