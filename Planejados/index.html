@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu mundo!</title>
+    
+    <!-- icons Favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./assets/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./assets/favicons//ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- end Favicon -->
+
+    <!--Import Bootstrap-->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <!--import css config-->
+    <link rel='stylesheet' href='./css/estilo.css'>
+</head>
+<body>
+
+    <!-- Header 100% -->
+    <header class="container-fluid bg-dark fixed-top">
+        <!-- Container da centralizacao -->
+        <div class="container">
+            <!-- Navbar -->
+            <nav class=" navbar navbar-expand-lg py-4 px-4 navbar-light bg-dark ">
+                <div class="container-fluid">
+
+                  <a class="navbar-brand" href="">
+                      <img class="container-fluid" src="./assets/gear-2128601.svg" alt="/" style='max-height: 50px'>
+                  </a>
+
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ativando" aria-controls="#ativando" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                    <div class="collapse navbar-collapse" id="ativando">
+                    
+                        <!-- Menu de navegação -->
+                        <ul class=" navbar-nav me-auto mb-2 mb-lg-0 text-uppercase">
+                        
+                            <li class=" nav-item">
+                                <a id='menu' class="nav-link" href="#">serviços</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a id='menu' class="nav-link" href="#">projetos</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a id='menu' class="nav-link" href="#">contato</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a id='menu' class="nav-link" href="#">sobre</a>
+                            </li>
+                        </ul>
+                        <!-- end Menu de navegação -->
+
+                        <!-- Fomulario Input -->
+                        <form class="d-flex">
+                        <input class="input-busca mx-1" type="search" placeholder=" O que você procura?" aria-label="Search">
+                        <button class="btn-busca btn btn-outline-success " type="submit">Buscar</button>
+                        </form>
+                        <!-- end Formulario Input -->
+
+                    </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <!-- end HEADER -->
+
+    <!-- Corrossel -->
+    <div class="container-fluid mt-5 pt-5">
+        <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner" style='max-height: 700px;'>
+                    <div class="carousel-item active">
+                        <img src="./assets/cozinha-com-ilha-5843321_1920.jpg" class="d-block w-100" alt="/">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/furniture-998265_1920.jpg" class="d-block w-100 h-auto" alt="/">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/room-1336497_1920.jpg" class="d-block w-100 h-auto" alt="/">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- end carrocel -->
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md text-center mt-5 pt-5">
+                    <div class="h3 text-uppercase">Alta qualidade</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, ut? Nisi provident nihil repellat, voluptatibus odio sunt aliquam perspiciatis amet architecto expedita quod fuga laboriosam omnis possimus mollitia laborum ea!</p>
+                    <a href="#" class='btn btn-dark'>Conheça</a>
+                    <a href="#" class="btn btn-outline-dark">Saiba mais</a>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--import Popper bootstrap scripts-->
+    <script src="./js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+</body>
+</html>
