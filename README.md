@@ -1,2 +1,2 @@
-# Em-andamento...
-Mini projetos em fase de criação que podem, ou não, serem levados adiante.
+# Site Móveis Planejados
+[Em Construção...] Projeto em andamento, sem pressa, desenvolvimento por hobby.
