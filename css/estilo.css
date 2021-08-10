@@ -1,0 +1,41 @@
+:root {
+    --branco: #fff;
+    --gold: #E4A14A;
+    --hotgold: #814900;
+    --marinho: #1B5478;
+}
+
+.btn-busca {
+    border-radius: 10px;
+    border-color: var(--branco);
+    color: var(--branco);
+    background-color: transparent;
+    
+}
+.btn-busca:hover{
+    transition: 0.3s;
+    color: white;
+    border-color:white;
+    background-color: var(--hotgold);
+}
+
+.input-busca {
+    border-radius: 10px;
+    outline: none;
+    
+}
+
+#menu {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    border-bottom: transparent solid 2px;
+
+}
+#menu:hover{
+    border-bottom: white 2px solid;
+    
+}
+.imgcarrol {
+    max-height: 450px;
+}
