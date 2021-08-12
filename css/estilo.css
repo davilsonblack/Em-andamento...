@@ -1,41 +1,111 @@
-:root {
-    --branco: #fff;
-    --gold: #E4A14A;
-    --hotgold: #814900;
-    --marinho: #1B5478;
+a {
+  text-decoration: none !important;
 }
 
 .btn-busca {
-    border-radius: 10px;
-    border-color: var(--branco);
-    color: var(--branco);
-    background-color: transparent;
-    
-}
-.btn-busca:hover{
-    transition: 0.3s;
-    color: white;
-    border-color:white;
-    background-color: var(--hotgold);
+  list-style: none;
+  text-decoration: none;
+  color: #E4A14A;
+  background-color: #212529;
 }
 
 .input-busca {
-    border-radius: 10px;
-    outline: none;
-    
+  border: none;
+  border-radius: 10px;
+  outline: none;
 }
 
 #menu {
-    list-style: none;
-    text-decoration: none;
-    color: white;
-    border-bottom: transparent solid 2px;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  border-bottom: transparent solid 2px;
+}
 
+#menu:hover {
+  border-bottom: white 2px solid;
 }
-#menu:hover{
-    border-bottom: white 2px solid;
-    
-}
+
 .imgcarrol {
-    max-height: 450px;
+  max-height: 450px;
 }
+
+.subheader {
+  background-color: #E4A14A;
+}
+
+.logotipo-img {
+  height: 60px;
+  margin: 30px 5px;
+}
+
+.redes-sociais {
+  color: #969696;
+  font-size: 1.6rem;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+header section article nav .redes-sociais ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+header section article nav .redes-sociais ul .facebook {
+  margin: 0px 5px;
+}
+header section article nav .redes-sociais ul .facebook:hover {
+  color: #fff;
+}
+header section article nav .redes-sociais ul .instagram {
+  margin: 0px 5px;
+}
+header section article nav .redes-sociais ul .instagram:hover {
+  color: #fff;
+}
+header section article nav .redes-sociais ul .whatsapp {
+  margin: 0px 5px;
+}
+header section article nav .redes-sociais ul .whatsapp:hover {
+  color: #fff;
+}
+header section article nav .btn-busca ul {
+  display: none;
+}
+header section article nav .btn-busca:hover ul {
+  z-index: 999;
+  display: block;
+  position: absolute;
+  top: 120px;
+  width: 100%;
+  padding: 20px 10px;
+  background-color: #212529;
+  text-transform: uppercase;
+  border-top: 20px solid #E4A14A;
+  border-radius: 5px;
+}
+header section article nav .btn-busca:hover ul .primeira-opcao {
+  padding-top: 15px;
+}
+header section article nav .btn-busca:hover ul li {
+  padding: 10px 0px;
+}
+header section article nav .btn-busca:hover ul li a {
+  color: #E4A14A;
+}
+header section article nav .btn-busca:hover ul li:hover {
+  transition: 0.4s;
+  width: 100%;
+  background-color: #1a1d20;
+  color: white;
+  padding-left: 10px;
+}
+header section article nav .btn-busca:hover ul li:hover a:hover {
+  transition: none;
+  color: #fff;
+}
+
+/*# sourceMappingURL=estilo.css.map */

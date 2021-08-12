@@ -1,96 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu mundo!</title>
+    <title>LS Planejados</title>
     
     <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="./assets/favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicons/favicon-16x16.png">
-    <link rel="manifest" href="./assets/favicons/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="./assets/favicons//ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/Favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/Favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/Favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/Favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/Favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/Favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/Favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/Favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/Favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./assets/Favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/Favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/Favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/Favicons/favicon-16x16.png">
+    <link rel="manifest" href="./assets/Favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#212529">
+    <meta name="msapplication-TileImage" content="./assets/Favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#212529">
     <!-- end Favicons -->
+
+    
+    <!-- Import Font Awesome -->
+    <script src="https://kit.fontawesome.com/4555fcd592.js" crossorigin="anonymous" defer></script>
 
     <!--Import Bootstrap-->
     <link href="./css/Boostrap/bootstrap.css" rel="stylesheet">
 
-    <!--import css config-->
+    <!--import CSS -->
     <link rel='stylesheet' href='./css/estilo.css'>
+
 </head>
 <body>
 
-    <!-- Container header -->
-    <header class="container-fluid bg-dark fixed-top">
-        <!-- Container centralizacao -->
+    <header class="container-fluid bg-dark">
         <section class="container">
-            <!-- Navbar -->
-            <nav class="navbar navbar-expand-lg py-4">
-                    <!-- logotipo -->
-                    <a class="navbar-brand" href="">
-                        <img class="container-fluid" src="./assets/logotipo.svg" alt="logotipo" style='max-height: 50px'>
-                    </a>
-                    <!-- end logotipo -->
-                    <!-- menu -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ativando" aria-controls="#ativando" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="ativando">
-                    
-                        <!-- Menu de navegacao -->
-                        <ul class=" navbar-nav me-auto mb-2 mb-lg-0 text-uppercase">
-                        
-                            <li class=" nav-item">
-                                <a id='menu' class="nav-link" href="#">serviços</a>
+            <article class="row d-flex justify-content-between align-items-center">
+                <nav class="nav nav-expang-md">
+                    <div class="logotipo col-4">
+                        <a href="#"><img class='logotipo-img' src="./assets/logotipo.svg" alt="logotipo"></a>
+                        <a href="#"><img class='logotipo-img' src="./assets/logo.svg" alt="logotipo-text"></a>
+                    </div>
+                    <div class='col'></div>
+                    <div class="redes-sociais col-lg-2">
+                        <ul class='nav'>
+                            <li class='facebook nav-item'>
+                                <i class="fab fa-facebook-square"></i>
                             </li>
-
-                            <li class="nav-item">
-                                <a id='menu' class="nav-link" href="#">projetos</a>
+                            <li class='instagram nav-item'>
+                                <i class="fab fa-instagram-square"></i>
                             </li>
-
-                            <li class="nav-item">
-                                <a id='menu' class="nav-link" href="#">contato</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a id='menu' class="nav-link" href="#">sobre</a>
+                            <li class='whatsapp nav-item'>
+                                <i class="fab fa-whatsapp-square"></i>
                             </li>
                         </ul>
-                        <!-- end Menu de navegacao -->
-                        <!-- Fomulario Input -->
-                        <form class="d-flex">
-                        <input class="input-busca mx-1" type="search" placeholder=" O que você procura?" aria-label="Search">
-                        <button class="btn-busca btn btn-outline-success " type="submit">Buscar</button>
-                        </form>
-                        <!-- end Formulario Input -->
                     </div>
-                    <!-- end menu de navegacao -->
-              </nav>
-              <!-- end Navbar -->
+                    <div class='btn-busca d-flex align-items-center col-1 nav'>
+                        <span style='font-size:1.3rem'>MENU</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                            </svg>
+                        <ul class="aqui nav flex-column">
+                            <li class='primeira-opcao'><a href="#">Quem Somos</a></li>
+                            <li><a href="https://www.linkedin.com/" target="_blanck">Catalogo</a></li>
+                            <li><a href="#">Novidades</a></li>
+                            <li><a href="#">Contato</a></li>
+                        </ul>
+                    </div>
+                    
+                </nav>
+            </article>
         </section>
-        <!-- end container centralizado -->
     </header>
-    <!-- end Container header -->
+
+
+    <section class="subheader container-fluid" style='height: 20px;'>
+        <article class="container">
+            ㅤ
+        </article>
+    </section>
+
 
     <!-- Container main -->
     <main class='container-fluid'>
 
         <!-- Container carrossel -->
-        <section class="container mt-5 pt-5">
+        <section class="container">
             <!-- Carrossel -->
             <article id="carrossel-indicador" class="carousel slide" data-bs-ride="carousel">
                 <!-- Indicadores centro-superior -->
@@ -130,32 +131,62 @@
         </section>
         <!-- end Container carrosel -->
 
-        <!-- Info Qualidade -->
+        <!-- Info Servico-->
         <section class="container">
             <!-- Linha -->
-            <article class="row">
-                <!-- Coluna 1 -->
-                <div class="col-md-4"></div>
+            <article class="row" style='margin:8rem 0rem; display:flex; align-items: center;'>
                 <!-- Coluna 2 -->
-                <div class="col-md text-center mt-5 pt-5">
+                <div class="col-md-6 text-center">
                     <div class="h3 text-uppercase">Alta qualidade</div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, ut? Nisi provident nihil repellat, voluptatibus odio sunt aliquam perspiciatis amet architecto expedita quod fuga laboriosam omnis possimus mollitia laborum ea!</p>
                     <a href="#" class='btn btn-dark'>Conheça</a>
                     <a href="#" class="btn btn-outline-dark">Saiba mais</a>
                 </div>
-                <!-- Coluna 3 -->
-                <div class="col-md-4"></div>
+                <!-- Coluna 2 -->
+                <div class="col-md-6">
+                    <img src="./assets/carpenter-1453880_640.png" alt="imagem-carpinteiro">
+                </div>
             </article>
             <!-- end Linha -->
         </section>
-        <!-- end Info Qualidade -->
+        <!-- end Info Servico -->
 
         
+        <section class="container-fluid mt-5 pt-5">
+            <article class="container">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="./assets/madeira-de-demolicao_Olho$$0.jpg" class="card-img-top" alt="cartao-madeira">
+                        <div class="card-body">
+                          <h5 class="card-title">Madeira Prensada</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                          <img src="./assets/madeira-de-demolicao_Olho$$0.jpg" class="card-img-top" alt="cartao-madeira">
+                          <div class="card-body">
+                            <h5 class="card-title">Madeira Prensada</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card h-100">
+                          <img src="./assets/madeira-de-demolicao_Olho$$0.jpg" class="card-img-top" alt="cartao-madeira">
+                          <div class="card-body">
+                            <h5 class="card-title">Madeira Prensada</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          </div>
+                        </div>
 
+                  </div>
+            </article>
+        </section>
 
-
-
-
+      
 
 
 
@@ -194,10 +225,11 @@
     <!-- end Container main -->
 
 
-
+    
     <!--import Popper bootstrap scripts-->
-    <script src="./js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
-    <script src="./js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    <script rel='stylesheet' src="./js/bootstrap.min.js.map"></script>
+
 </body>
 </html>

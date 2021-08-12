@@ -1,0 +1,127 @@
+.btn-busca {
+    list-style: none;
+    text-decoration: none;
+    color: $cor-gold;
+    background-color: $cor-primary;
+    
+}
+
+.input-busca {
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    
+}
+
+#menu {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    border-bottom: transparent solid 2px;
+
+}
+#menu:hover{
+    border-bottom: white 2px solid;
+    
+}
+
+.imgcarrol {
+    max-height: 450px;
+}
+
+.subheader {
+    background-color: $cor-gold;
+}
+.logotipo-img{
+    height: 60px;
+    margin: 30px 5px;
+}
+.redes-sociais{
+    color: rgb(150, 150, 150);
+    font-size: 1.6rem;
+}
+body{
+    background-color: lightgrey;
+}
+header {
+    section{
+        article{
+                nav{
+                .redes-sociais{
+                    ul{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        height: 100%;
+
+                        .facebook{
+                            margin: 0px 5px;
+                        }
+                        .facebook:hover{
+                            color: $branco;
+                        }
+                        .instagram{
+                            margin: 0px 5px;
+                        }
+                        .instagram:hover{
+                            color: $branco;
+                        }
+                        .whatsapp{
+                            margin: 0px 5px;
+                        }
+                        .whatsapp:hover{
+                            color:$branco;
+                        }
+                    }  
+                }
+                .btn-busca{
+
+                    ul{
+
+                        display: none;
+
+                }
+            }
+                .btn-busca:hover{
+                    ul{
+                        z-index: 999;
+                        display: block;
+
+                        position: absolute;
+                        top: 120px;
+                        width: 100%;
+                        padding: 20px 10px;
+                        
+                        background-color: $cor-primary;
+                        text-transform: uppercase;
+                        border-top: 20px solid $cor-gold;
+                        border-radius: 5px;
+
+                        .primeira-opcao{
+                            padding-top: 15px;
+                        }
+
+                        li{
+                            a{
+                                color: $cor-gold;
+                            }
+                            padding: 10px 0px;
+                        }
+                        li:hover{
+                            transition: 0.4s;
+                            width: 100%;
+                            background-color: $cor-fantasma;
+                            color: white;
+                            padding-left: 10px;
+
+                            a:hover{
+                                transition: none;
+                                color: $branco;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
