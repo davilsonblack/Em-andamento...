@@ -116,6 +116,9 @@ footer {
   color: white;
   background-color: #212529;
 }
+footer section {
+  padding: 50px 0px;
+}
 footer section article .h7 {
   text-transform: uppercase;
   color: #E4A14A;
@@ -147,6 +150,7 @@ footer section article .footer-mais {
 footer section article .footer-mais-mais form input {
   width: 75%;
   outline: none;
+  margin-bottom: 10px;
 }
 footer section article .footer-mais-mais form button {
   border: none;
