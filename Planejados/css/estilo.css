@@ -1,41 +1,184 @@
-:root {
-    --branco: #fff;
-    --gold: #E4A14A;
-    --hotgold: #814900;
-    --marinho: #1B5478;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,900;1,500&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
 }
 
-.btn-busca {
-    border-radius: 10px;
-    border-color: var(--branco);
-    color: var(--branco);
-    background-color: transparent;
-    
+a {
+  text-decoration: none !important;
+  color: #fff;
 }
-.btn-busca:hover{
-    transition: 0.3s;
-    color: white;
-    border-color:white;
-    background-color: var(--hotgold);
+a:hover {
+  color: #fff;
 }
 
-.input-busca {
-    border-radius: 10px;
-    outline: none;
-    
+header section article nav .logotipo .logotipo-img {
+  height: 60px;
+  margin: 30px 5px;
+}
+header section article nav .redes-sociais {
+  color: #969696;
+  font-size: 1.6rem;
+}
+header section article nav .redes-sociais ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+header section article nav .redes-sociais ul .facebook {
+  margin: 0px 5px;
+}
+header section article nav .redes-sociais ul .facebook:hover {
+  transition: 0.2s;
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  color: #fff;
+}
+header section article nav .redes-sociais ul .instagram {
+  margin: 0px 5px;
+}
+header section article nav .redes-sociais ul .instagram:hover {
+  transition: 0.2s;
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  color: #fff;
+}
+header section article nav .redes-sociais ul .whatsapp {
+  margin: 0px 5px;
+}
+header section article nav .redes-sociais ul .whatsapp:hover {
+  transition: 0.2s;
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  color: #fff;
+}
+header section article nav .redes-sociais ul a {
+  color: #969696;
+}
+header section article nav .btn-busca {
+  display: flex;
+  justify-content: center;
+  color: #E4A14A;
+  background-color: #212529;
+  border: none;
+}
+header section article nav .btn-busca:focus ~ .lista-menu {
+  z-index: 999;
+  display: block;
+  position: absolute;
+  top: 120px;
+  width: 100%;
+  padding: 30px 10px;
+  left: 80%;
+  background-color: #212529;
+  text-transform: uppercase;
+  border-top: 20px solid #E4A14A;
+  border-radius: 5px;
+}
+header section article nav .btn-busca:focus ~ .lista-menu li, header section article nav .btn-busca:focus ~ .lista-menu a {
+  transition: 0.5s;
+}
+header section article nav .primeira-opcao {
+  padding-top: 15px;
+}
+header section article nav .lista-menu {
+  transition: all 0.5s;
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+header section article nav .lista-menu li {
+  padding: 10px 0px;
+}
+header section article nav .lista-menu li a {
+  color: #E4A14A;
+}
+header section article nav .lista-menu li:hover {
+  transition: 0.4s;
+  width: 100%;
+  background-color: #1a1d20;
+  color: white;
+  padding-left: 10px;
+}
+header section article nav .lista-menu li:hover a:hover {
+  transition: none;
+  color: #fff;
 }
 
-#menu {
-    list-style: none;
-    text-decoration: none;
-    color: white;
-    border-bottom: transparent solid 2px;
+.subheader {
+  background-color: #E4A14A;
+}
 
+footer {
+  color: white;
+  background-color: #212529;
 }
-#menu:hover{
-    border-bottom: white 2px solid;
-    
+footer section article .h7 {
+  text-transform: uppercase;
+  color: #E4A14A;
+  font-size: 1em;
+  margin-bottom: 10px;
 }
-.imgcarrol {
-    max-height: 450px;
+footer section article .footer-contato .footer-contato-informacoes {
+  padding: 50px 15px;
 }
+footer section article .footer-contato .footer-contato-informacoes #footer-contato-mensagem-id {
+  height: 4rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+footer section article .footer-endereco .footer-endereco-local {
+  padding: 50px 15px;
+  display: flex;
+  flex-direction: column;
+}
+footer section article .footer-outros .footer-outros-sugestoes {
+  padding: 50px 15px;
+}
+footer section article .footer-mais {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer section article .footer-mais-mais form input {
+  width: 75%;
+  outline: none;
+}
+footer section article .footer-mais-mais form button {
+  border: none;
+  outline: none;
+}
+footer section article .footer-mais-mais .instagram, footer section article .footer-mais-mais .facebook, footer section article .footer-mais-mais .whatsapp {
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+@media (max-width: 1200px) {
+  .redes-sociais {
+    display: none;
+  }
+
+  .text-menu {
+    display: none;
+  }
+
+  .icon-menu {
+    width: 50px;
+    height: 50px;
+  }
+
+  .lista-menu {
+    left: 80%;
+  }
+}
+@media (max-width: 770px) {
+  .logo1 {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */
