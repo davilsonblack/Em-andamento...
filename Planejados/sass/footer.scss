@@ -58,11 +58,13 @@ footer{
                         outline: none;
                     }
                 }
-                
-                .instagram, .facebook, .whatsapp{
-                    padding-top: 10px;
-                    font-size: 20px;
+                a{
+                    .instagram, .facebook{
+                        padding: 5px;
+                        font-size: 20px;
+                    }
                 }
+                
             }
         }
     }

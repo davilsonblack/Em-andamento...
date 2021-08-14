@@ -38,7 +38,8 @@
 
 </head>
 <body>
-
+    
+    <!-- Header -->
     <header class="container-fluid bg-dark">
         <section class="container">
             <article class="row d-flex justify-content-between align-items-center">
@@ -78,131 +79,46 @@
         </section>
     </header>
 
-
+    <!-- Header line -->
     <section class="subheader container-fluid" style='height: 20px;'>
         <article class="container">
             ㅤ
         </article>
     </section>
 
-
     <!-- Container main -->
     <main class='container-fluid'>
 
-        <!-- Container carrossel -->
-        <section class="container">
-            <!-- Carrossel -->
-            <article id="carrossel-indicador" class="carousel slide" data-bs-ride="carousel">
-                <!-- Indicadores centro-superior -->
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carrossel-indicador" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carrossel-indicador" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carrossel-indicador" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <!-- end Indicadores centro-superior -->
+        <div id="carrossel-imagem-principal" class="carousel slide" data-bs-ride="carousel">    
+            <div class="carousel-inner">
+                
+                <figure class="carousel-item active">
+                    <img src="./assets/ps-cozinha-novo.jpg" class="d-block w-100" alt="carrossel-sala">
+                </figure>
 
-                <!-- Imagens -->
-                <div class="carousel-inner" style='max-height: 700px;'>
-                    <figure class="carousel-item active">
-                        <img src="./assets/carrossel-cozinha.jpg" class="d-block w-100" alt="/">
-                    </figure>
-                    <figure class="carousel-item">
-                        <img src="./assets/carrossel-sala.jpg" class="d-block w-100 h-auto" alt="/">
-                    </figure>
-                    <figure class="carousel-item">
-                        <img src="./assets/carrossel-sala.jpg" class="d-block w-100 h-auto" alt="/">
-                    </figure>
-                </div>
-                <!-- end Imagens -->
+                <figure class="carousel-item">
+                    <img src="./assets/ps-cozinha-novo2.jpg" class="d-block w-100" alt="carrossel-estante">
+                </figure>
 
-                <!-- Botao Prev -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <!-- Botao Next -->
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </article>
-            <!-- end Carrossel -->
-        </section>
-        <!-- end Container carrosel -->
-
-        <!-- Info Servico-->
-        <section class="container">
-            <!-- Linha -->
-            <article class="row" style='margin:8rem 0rem; display:flex; align-items: center;'>
-                <!-- Coluna 2 -->
-                <div class="col-md-6 text-center">
-                    <div class="h3 text-uppercase">Alta qualidade</div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, ut? Nisi provident nihil repellat, voluptatibus odio sunt aliquam perspiciatis amet architecto expedita quod fuga laboriosam omnis possimus mollitia laborum ea!</p>
-                    <a href="#" class='btn btn-dark'>Conheça</a>
-                    <a href="#" class="btn btn-outline-dark">Saiba mais</a>
-                </div>
-                <!-- Coluna 2 -->
-                <div class="col-md-6">
-                    <img src="./assets/carpenter-1453880_640.png" alt="imagem-carpinteiro">
-                </div>
-            </article>
-            <!-- end Linha -->
-        </section>
-        <!-- end Info Servico -->
-
-        
-        <section class="container-fluid mt-5 pt-5">
-            <article class="container">
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col">
-                      <div class="card h-100">
-                        <img src="./assets/madeira-de-demolicao_Olho$$0.jpg" class="card-img-top" alt="cartao-madeira">
-                        <div class="card-body">
-                          <h5 class="card-title">Madeira Prensada</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100">
-                          <img src="./assets/madeira-de-demolicao_Olho$$0.jpg" class="card-img-top" alt="cartao-madeira">
-                          <div class="card-body">
-                            <h5 class="card-title">Madeira Prensada</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div class="card h-100">
-                          <img src="./assets/madeira-de-demolicao_Olho$$0.jpg" class="card-img-top" alt="cartao-madeira">
-                          <div class="card-body">
-                            <h5 class="card-title">Madeira Prensada</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          </div>
-                        </div>
-
-                  </div>
-            </article>
-        </section>
-
-      
+                <figure class="carousel-item">
+                    <img src="./assets/ps-cozinha-novo3.jpg" class="d-block w-100" alt="carrossel-cozinha">
+                </figure>
+            </div>
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#carrossel-imagem-principal" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carrossel-imagem-principal" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <div>
+            <img src="./assets/shutterstock_1975402364.eps" alt="aaa">
+        </div>
 
 
 
@@ -223,8 +139,8 @@
     </main>
 
 
-
-    <footer class="container-fluid">
+    <!-- Footer -->
+    <footer class="container-fluid" style='margin-top: 1000px;'>
         <section class="container">
             <article class="row">
                 <div class="footer-contato col-md-3">
@@ -264,7 +180,7 @@
                 </div>
                 <div class="footer-mais col-md-3">
                     <div class="footer-mais-mais">
-                        <div class='h7'>Registre-se para receber novidades</div>
+                        <div class='h7'>Registre-se para receber +novidades</div>
                         <form>
                             <input type="email" placeholder='E-mail'>
                             <button>
@@ -273,9 +189,15 @@
                         </form>
                         <span>Política de Privacidade</span>
                         <br>
-                        <i class="fab fa-instagram-square instagram"></i>
-                        <i class="fab fa-facebook-square facebook"></i>
-                        <i class="fab fa-whatsapp-square whatsapp"></i>
+                        <a href='https://www.instagram.com/' target="_black">
+                            <i class="fab fa-instagram-square instagram"></i>
+                            /lsplanejados
+                        </a>
+                        <br>
+                        <a href='https://www.facebook.com/' target="_black">
+                            <i class="fab fa-facebook-square facebook"></i>
+                            /lsplanejados
+                        </a>
                     </div>
                 </div>
             </article>
