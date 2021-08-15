@@ -1,4 +1,4 @@
-// Fonte Roboto
+// Google Fonte Roboto
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,900;1,500&display=swap");
 
 // Variaveis
@@ -10,14 +10,17 @@
 // Header
 @import "./header.scss";
 
-// Main-Carrossel
-@import "./main/carrossel.scss";
+// Carrossel
+@import "./arquivosHome/carrossel.scss";
+
+// Servico
+@import "./arquivosHome/servico.scss";
+
+// Parallax 1
+@import "./arquivosHome/parallax.scss";
 
 // Footer
 @import "./footer.scss";
-
-// Estilos
-@import "./estilo.scss";
 
 // Enquadrando Responsivo
 @import "./responsive.scss"

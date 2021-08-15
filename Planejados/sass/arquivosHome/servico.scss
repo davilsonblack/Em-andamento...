@@ -1,0 +1,43 @@
+
+.servico {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 150px 0;
+    .servico-info{
+        h2{
+            font-weight: bold;
+        }
+        p{
+            margin: 20px 50px; 
+        }
+        .botao1{
+            background-color: $cor-secondary;
+            border: 2px solid $cor-secondary;
+            color: $branco;
+            
+        }
+        .botao2{
+            background-color: transparent;
+            border: 2px solid $cor-secondary;
+            color: $cor-secondary;
+
+            &:hover{
+            background-color: $cor-secondary;
+            border: 2px solid $cor-secondary;
+            color: $branco;
+
+            }
+        }
+    }
+
+    .servico-imagem{
+        .servico-imagem-apresentacao{
+            background-size: cover;
+            height: 400px;
+        }
+    }
+}
+
+

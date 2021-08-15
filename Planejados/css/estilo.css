@@ -112,6 +112,49 @@ header section article nav .lista-menu li:hover a:hover {
   background-color: #E4A14A;
 }
 
+.servico {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 150px 0;
+}
+.servico .servico-info h2 {
+  font-weight: bold;
+}
+.servico .servico-info p {
+  margin: 20px 50px;
+}
+.servico .servico-info .botao1 {
+  background-color: #1B5478;
+  border: 2px solid #1B5478;
+  color: #fff;
+}
+.servico .servico-info .botao2 {
+  background-color: transparent;
+  border: 2px solid #1B5478;
+  color: #1B5478;
+}
+.servico .servico-info .botao2:hover {
+  background-color: #1B5478;
+  border: 2px solid #1B5478;
+  color: #fff;
+}
+.servico .servico-imagem .servico-imagem-apresentacao {
+  background-size: cover;
+  height: 400px;
+}
+
+.parallax-imagem-1 {
+  height: 800px;
+  background-image: url("/assets/Sonho.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transform: scale(1.02);
+}
+
 footer {
   color: white;
   background-color: #212529;
