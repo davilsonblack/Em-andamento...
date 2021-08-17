@@ -1,0 +1,125 @@
+header {
+    section{
+        article{
+                nav{
+                    .logotipo{
+                        .logotipo-img{
+                            height: 60px;
+                            margin: 30px 5px;
+                        }
+                    }
+                .redes-sociais{
+                    color: rgb(150, 150, 150);
+                    font-size: 1.6rem;
+
+                    ul{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        height: 100%;
+
+                        .facebook{
+                            margin: 0px 5px;  
+
+                            &:hover{
+                                transition: 0.2s;
+                                -moz-transform: scale(1.2);
+                                -webkit-transform: scale(1.2);
+                                transform: scale(1.2);
+
+                                color: $branco;
+                            }}
+
+                        .instagram{
+                            margin: 0px 5px;
+                            
+                            &:hover{
+                                transition: 0.2s;
+                                -moz-transform: scale(1.2);
+                                -webkit-transform: scale(1.2);
+                                transform: scale(1.2);
+
+                                color: $branco;
+                            }}
+
+                        .whatsapp{
+                            margin: 0px 5px;
+
+                            &:hover{
+                                transition: 0.2s;
+                                -moz-transform: scale(1.2);
+                                -webkit-transform: scale(1.2);
+                                transform: scale(1.2);
+
+                                color:$branco;
+                            }}
+
+                        a{
+                            color: #969696;
+                        }
+                    }  
+                }
+                .btn-busca{
+                    display: flex;
+                    justify-content: center;
+                    color: $cor-gold;
+                    background-color: $cor-primary;
+                    border: none;
+                    
+                    &:focus~.lista-menu{
+                        z-index: 999;
+                        display: block;
+
+                        position: absolute;
+                        top: 120px;
+                        width: 100%;
+                        padding: 30px 10px;
+                        left: 80%;
+                        
+                        background-color: $cor-primary;
+                        text-transform: uppercase;
+                        border-top: 20px solid $cor-gold;
+                        border-radius: 5px;
+
+                        li, a{
+                            transition: 0.5s;
+                            
+                        }}}
+
+                        .primeira-opcao{
+                            padding-top: 15px;
+                        }
+
+                        .lista-menu{
+                            transition: all 0.5s;
+                            position: absolute;
+                            top: 0px;
+                            display: none;
+
+                            li{
+                                padding: 10px 0px;
+                                
+                                a{
+                                    color: $cor-gold;
+                                    }
+                                
+                                &:hover{
+                                    transition: 0.4s;
+                                    width: 100%;
+                                    background-color: $cor-fantasma;
+                                    color: white;
+                                    padding-left: 10px;
+
+                                    a:hover{
+                                        transition: none;
+                                        color: $branco;
+                                    }}}}
+            }
+        }
+    }
+}
+
+// Linha horizontal amarela de baixo do header
+.subheader {
+    background-color: $cor-gold;
+}

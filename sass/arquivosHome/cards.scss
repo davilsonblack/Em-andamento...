@@ -1,0 +1,39 @@
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: $branco;
+    .carde{
+        border: 2px solid $cor-secondary;
+        border-radius: 5px;
+
+        background-color: $cor-secondary;
+        color: $cor-gold;
+
+        margin: 10px 5px;
+        max-width: 404px;
+        max-height: 470px;
+        text-align: center;
+
+        &:hover{
+            transition: 0.2s;
+            transform: scale(1.05);
+            border-color: $cor-primary;
+            background-color: $cor-gold;
+            color: $cor-primary;
+        }
+        .card-imagem{
+            border-radius: 5px 5px 0px 0px; //border-radius de 5px no canto superior direito e esquerdo;
+        }
+        .h3{
+            margin: 20px 0;
+        }
+        .card-texto{
+            p{
+                padding: 0 20px;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,68 @@
+footer{
+    color: white;
+    background-color: $cor-primary;
+    
+    section{
+        padding: 50px 0px;
+
+        article{
+            .h7{
+                text-transform: uppercase;
+                color: $cor-gold;
+                font-size: 1em;
+                margin-bottom: 10px;
+
+            }
+            .footer-contato{
+                .footer-contato-informacoes{
+                    
+
+                    #footer-contato-mensagem-id{
+                        height: 4rem;
+                        outline: none;
+                        border: none;
+                        border-radius: 5px;
+                    }
+                }
+            }
+            .footer-endereco{
+                
+                .footer-endereco-local{
+                    display: flex;
+                    flex-direction: column;
+                }
+               
+            }
+            .footer-outros{
+                .footer-outros-sugestoes{
+                }
+            }
+            .footer-mais{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+            }
+            .footer-mais-mais{
+                form{
+                    input{
+                        width: 75%;
+                        outline: none;
+                        margin-bottom: 10px;
+                    }
+                    button{
+                        border: none;
+                        outline: none;
+                    }
+                }
+                a{
+                    .instagram, .facebook{
+                        padding: 5px;
+                        font-size: 20px;
+                    }
+                }
+                
+            }
+        }
+    }
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LS Planejados</title>
+    <title>LS Home</title>
     
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="57x57" href="./assets/Favicons/apple-icon-57x57.png">
@@ -39,190 +39,232 @@
 </head>
 <body>
 
+    <!-- Header -->
     <header class="container-fluid bg-dark">
         <section class="container">
             <article class="row d-flex justify-content-between align-items-center">
                 <nav class="nav nav-expang-md">
                     <div class="logotipo col-4">
-                        <a href="#"><img class='logotipo-img' src="./assets/logotipo.svg" alt="logotipo"></a>
-                        <a href="#"><img class='logotipo-img' src="./assets/logo.svg" alt="logotipo-text"></a>
+                        <a href="#"><img class='logotipo-img logo1' src="./assets/logotipo.svg" alt="logotipo"></a>
+                        <a href="#"><img class='logotipo-img logo2' src="./assets/logo.svg" alt="logotipo-text"></a>
                     </div>
                     <div class='col'></div>
-                    <div class="redes-sociais col-lg-2">
+                    <div class="redes-sociais col-lg-2" >
                         <ul class='nav'>
-                            <li class='facebook nav-item'>
+                            <a class='facebook nav-item' href='https://www.facebook.com/' target='_blank'>
                                 <i class="fab fa-facebook-square"></i>
-                            </li>
-                            <li class='instagram nav-item'>
+                            </a>
+                            <a class='instagram nav-item' href='https://www.instagram.com/' target='_blank'>
                                 <i class="fab fa-instagram-square"></i>
-                            </li>
-                            <li class='whatsapp nav-item'>
+                            </a>
+                            <a class='whatsapp nav-item' href='https://web.whatsapp.com/' target='_blank'>
                                 <i class="fab fa-whatsapp-square"></i>
-                            </li>
+                            </a>
                         </ul>
                     </div>
-                    <div class='btn-busca d-flex align-items-center col-1 nav'>
-                        <span style='font-size:1.3rem'>MENU</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-                            </svg>
-                        <ul class="aqui nav flex-column">
-                            <li class='primeira-opcao'><a href="#">Quem Somos</a></li>
-                            <li><a href="https://www.linkedin.com/" target="_blanck">Catalogo</a></li>
-                            <li><a href="#">Novidades</a></li>
-                            <li><a href="#">Contato</a></li>
-                        </ul>
-                    </div>
-                    
+                    <button class='btn-busca d-flex align-items-center col-1 nav'>
+                        <span class='text-menu' style='font-size:1.3rem'>MENU</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list icon-menu" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                        </svg>
+                    </button>
+                    <ul class="lista-menu nav flex-column">
+                        <li class='primeira-opcao'><a href="#">Quem Somos</a></li>
+                        <li><a href="https://www.linkedin.com/" target="_blanck">Catalogo</a></li>
+                        <li><a href="#">Novidades</a></li>
+                        <li><a href="./contato.html">Contato</a></li>
+                    </ul>
                 </nav>
             </article>
         </section>
     </header>
+    <!-- end Header -->
 
-
+    <!-- Header line -->
     <section class="subheader container-fluid" style='height: 20px;'>
         <article class="container">
-            ㅤ
         </article>
     </section>
-
+    <!-- end Header line -->
 
     <!-- Container main -->
     <main class='container-fluid'>
+        <!-- Carrossel -->
+        <div id="carrossel-imagem-principal" class="carousel slide" data-bs-ride="carousel">    
+            <div class="carousel-inner">
+                
+                <figure class="carousel-item active">
+                    <img src="./assets/ps-cozinha-novo.jpg" class="d-block w-100" alt="carrossel-sala">
+                </figure>
 
-        <!-- Container carrossel -->
-        <section class="container">
-            <!-- Carrossel -->
-            <article id="carrossel-indicador" class="carousel slide" data-bs-ride="carousel">
-                <!-- Indicadores centro-superior -->
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carrossel-indicador" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carrossel-indicador" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carrossel-indicador" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <!-- end Indicadores centro-superior -->
+                <figure class="carousel-item">
+                    <img src="./assets/ps-cozinha-novo2.jpg" class="d-block w-100" alt="carrossel-estante">
+                </figure>
 
-                <!-- Imagens -->
-                <div class="carousel-inner" style='max-height: 700px;'>
-                    <figure class="carousel-item active">
-                        <img src="./assets/carrossel-cozinha.jpg" class="d-block w-100" alt="/">
-                    </figure>
-                    <figure class="carousel-item">
-                        <img src="./assets/carrossel-sala.jpg" class="d-block w-100 h-auto" alt="/">
-                    </figure>
-                    <figure class="carousel-item">
-                        <img src="./assets/carrossel-sala.jpg" class="d-block w-100 h-auto" alt="/">
-                    </figure>
-                </div>
-                <!-- end Imagens -->
+                <figure class="carousel-item">
+                    <img src="./assets/ps-cozinha-novo3.jpg" class="d-block w-100" alt="carrossel-cozinha">
+                </figure>
+            </div>
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#carrossel-imagem-principal" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carrossel-imagem-principal" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- end Carrossel -->
 
-                <!-- Botao Prev -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <!-- Botao Next -->
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </article>
-            <!-- end Carrossel -->
-        </section>
-        <!-- end Container carrosel -->
-
-        <!-- Info Servico-->
-        <section class="container">
-            <!-- Linha -->
-            <article class="row" style='margin:8rem 0rem; display:flex; align-items: center;'>
-                <!-- Coluna 2 -->
-                <div class="col-md-6 text-center">
-                    <div class="h3 text-uppercase">Alta qualidade</div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, ut? Nisi provident nihil repellat, voluptatibus odio sunt aliquam perspiciatis amet architecto expedita quod fuga laboriosam omnis possimus mollitia laborum ea!</p>
-                    <a href="#" class='btn btn-dark'>Conheça</a>
-                    <a href="#" class="btn btn-outline-dark">Saiba mais</a>
-                </div>
-                <!-- Coluna 2 -->
-                <div class="col-md-6">
-                    <img src="./assets/carpenter-1453880_640.png" alt="imagem-carpinteiro">
-                </div>
-            </article>
-            <!-- end Linha -->
-        </section>
-        <!-- end Info Servico -->
-
-        
-        <section class="container-fluid mt-5 pt-5">
+        <!-- Servico -->
+        <section class="container-fluid">
             <article class="container">
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col">
-                      <div class="card h-100">
-                        <img src="./assets/madeira-de-demolicao_Olho$$0.jpg" class="card-img-top" alt="cartao-madeira">
-                        <div class="card-body">
-                          <h5 class="card-title">Madeira Prensada</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100">
-                          <img src="./assets/madeira-de-demolicao_Olho$$0.jpg" class="card-img-top" alt="cartao-madeira">
-                          <div class="card-body">
-                            <h5 class="card-title">Madeira Prensada</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div class="card h-100">
-                          <img src="./assets/madeira-de-demolicao_Olho$$0.jpg" class="card-img-top" alt="cartao-madeira">
-                          <div class="card-body">
-                            <h5 class="card-title">Madeira Prensada</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          </div>
-                        </div>
+                <section class="servico">
+                    <div class="col-md-6 servico-info">
+                        <img src="./assets/logo.svg" alt="">
+                        <p>Reconhecer é dar valor e possibilidades quase infinitas para compor e se emocionar. Por isso, criamos um mundo onde reconhecemos tendência, design, estilo e gente. A Dalmóbile reconhece o trabalho dos arquitetos, designers de interiores e decoradores parceiros da rede de lojas.</p>
+                        <a href="#" class="btn botao1">Pedir orçamento</a>
+                        <a href="#" class="btn botao2">Saiba mais</a>
 
-                  </div>
+                    </div>
+                    <div class="col-md-6 servico-imagem">
+                        <img class='servico-imagem-apresentacao' src="./assets/apresentacao-imagem.jpg" alt="servico-imagem-apresentacao">
+                    </div>
+                </section>
             </article>
         </section>
+        <!-- end Servico -->
 
-      
+        <section style='margin: 200px 0;'>
+            <!-- Cards -->
+            <section class="cards">
+                <div class="carde">
+                    <img class='card-imagem' src="./assets/card-img1.jpg" alt="card-imagem">
+                    <div class='h3'>Qualidade</div>
+                    <span class='card-texto'><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolores possimus non, illo, autem quae corrupti fugiat dolorem eius assumenda nam. Dolorum nostrum consectetur, doloribus totam voluptas delectus distinctio dolores?   
+                    </p></span>
+                </div>
+                
+                <div class="carde">
+                    <img class='card-imagem' src="./assets/card-imd3.png" alt="card-imagem">
+                    <div class='h3'>Suporte</div>
+                    <span class='card-texto'><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolores possimus non, illo, autem quae corrupti fugiat dolorem eius assumenda nam. Dolorum nostrum consectetur, doloribus totam voluptas delectus distinctio dolores?   
+                    </p></span>
+                </div>
+                <div class="carde">
+                    <img class='card-imagem' src="./assets/card-img1.jpg" alt="card-imagem">
+                    <div class='h3'>Analise</div>
+                    <span class='card-texto'><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolores possimus non, illo, autem quae corrupti fugiat dolorem eius assumenda nam. Dolorum nostrum consectetur, doloribus totam voluptas delectus distinctio dolores?   
+                    </p></span>
+                </div>
+                
+                <div class="carde">
+                    <img class='card-imagem' src="./assets/card-imd3.png" alt="card-imagem">
+                    <div class='h3'>Montagem</div>
+                    <span class='card-texto'><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolores possimus non, illo, autem quae corrupti fugiat dolorem eius assumenda nam. Dolorum nostrum consectetur, doloribus totam voluptas delectus distinctio dolores?   
+                    </p></span>
+                </div>
+            </section>
+        </section>
+        <!-- end Cards -->
 
+        <!-- Parallax -->
+        <section class="parallax-imagem-1">
+        </section>
+        <!-- end Parallax -->
 
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <br>
+        <br>
+        <br>
+        <br>
+        <br><br>
+        <br>
+        <br>
+     
 
 
     </main>
-    <!-- end Container main -->
+
+
+    <!-- Header line -->
+    <section class="subheader container-fluid" style='height: 20px;'>
+        <article class="container">
+        </article>
+    </section>
+    <!-- end Header line -->
+    <!-- Footer -->
+    <footer class="container-fluid">
+        <section class="container">
+            <article class="row">
+                <div class="footer-contato col-md-3">
+                    <div class="footer-contato-informacoes">
+                        <div class='h7'>Fale conosco</div>
+                        
+                        <span class='footer-telefone'>
+                            Telefone:
+                        <a href="tel:+22119888888888">(11)95869-5421</a> 
+                        </span> <br>
+
+                        <span class='footer-email'>
+                            E-mail:
+                        <a href="mailto:carreira.pontual@gmail.com">@carreira.pontual@gmail.com</a>
+                        </span> <br>
+                        
+                    </div>
+                </div>
+                <div class="footer-endereco col-md-3">
+                    <div class='footer-endereco-local'>
+                        <div class='h7'>Endereço</div>
+
+                        <span>
+                            Rua Pedro Medeiros, 474 <br>
+                            Jardim Vila Carrão <br>
+                            São Paulo - SP
+                        </span>
+                    </div>
+                </div>
+                <div class="footer-outros col-md-3">
+                    <div class="footer-outros-sugestoes">
+                        <div class='h7'>Outros</div>
+                        <a href="#">Sugestão</a>
+                        <br>            
+                        <a href="#">Reclamação</a>
+                    </div>
+                </div>
+                <div class="footer-mais col-md-3">
+                    <div class="footer-mais-mais">
+                        <div class='h7'>Registre-se para receber +novidades</div>
+                        <form>
+                            <input type="email" placeholder='E-mail'>
+                            <button>
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </form>
+                        <span>Política de Privacidade</span>
+                        <br>
+                        <a href='https://www.instagram.com/' target="_black">
+                            <i class="fab fa-instagram-square instagram"></i>
+                            /lsplanejados
+                        </a>
+                        <br>
+                        <a href='https://www.facebook.com/' target="_black">
+                            <i class="fab fa-facebook-square facebook"></i>
+                            /lsplanejados
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </footer>
+    <!-- end Footer -->
 
 
     
