@@ -36,64 +36,37 @@
     <!--import CSS -->
     <link rel='stylesheet' href='./css/estilo.css'>
 
+    <!-- Files JavaScript -->
+    <script src="./js/interacoes.js"></script>
+
 </head>
 <body>
-    
     <!-- Header -->
-    <header class="container-fluid bg-dark">
-        <section class="container">
-            <article class="row d-flex justify-content-between align-items-center">
-                <nav class="nav nav-expang-md">
-                    <div class="logotipo col-4">
-                        <a href="#"><img class='logotipo-img logo1' src="./assets/logotipo.svg" alt="logotipo"></a>
-                        <a href="#"><img class='logotipo-img logo2' src="./assets/logo.svg" alt="logotipo-text"></a>
-                    </div>
-                    <div class='col'></div>
-                    <div class="redes-sociais col-lg-2" >
-                        <ul class='nav'>
-                            <a class='facebook nav-item' href='https://www.facebook.com/' target='_blank'>
-                                <i class="fab fa-facebook-square"></i>
-                            </a>
-                            <a class='instagram nav-item' href='https://www.instagram.com/' target='_blank'>
-                                <i class="fab fa-instagram-square"></i>
-                            </a>
-                            <a class='whatsapp nav-item' href='https://web.whatsapp.com/' target='_blank'>
-                                <i class="fab fa-whatsapp-square"></i>
-                            </a>
-                        </ul>
-                    </div>
-                    <button class='btn-busca d-flex align-items-center col-1 nav'>
-                        <span class='text-menu' style='font-size:1.3rem'>MENU</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list icon-menu" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-                        </svg>
-                    </button>
-                    <ul class="lista-menu nav flex-column">
-                        <li class='primeira-opcao'><a href="#">Quem Somos</a></li>
-                        <li><a href="https://www.linkedin.com/" target="_blanck">Catalogo</a></li>
-                        <li><a href="#">Novidades</a></li>
-                        <li><a href="#">Contato</a></li>
-                    </ul>
-                </nav>
-            </article>
-        </section>
+    <header id='header'>
+        <!-- Logotipos -->
+        <figure id='logotipo'>
+            <a href="#"><img id='logotipo-icon' src="./assets/logotipo.svg" alt="logotipo-icon"></a>
+            <a href="#"><img id='logotipo-texto'src="./assets/logo.svg" alt="Logotipo-text"></a>
+        </figure>
+        <!-- Botão -->
+        <button id='btn' onclick="clicar()"><i class="fas fa-bars"></i></button>
+        <!-- Nav -->
+        <nav id='nav'>
+            <!-- Menu -->
+            <ul id='menu'>
+                <li><a href="#">catalogos</a></li>
+                <li><a href="#">novidades</a href="#"></li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">servicos</a></li>
+                <li><a href="./contato.html">contato</a></li>
+            </ul>
+            <!-- end Menu -->
+        </nav>
+        <!-- end Nav -->
     </header>
     <!-- end Header -->
 
-    <!-- Header line -->
-    <section class="subheader container-fluid" style='height: 20px;'>
-        <article class="container">
-        </article>
-    </section>
-    <!-- end Header line -->
 
-    <main class='andamento'>
-        
-    </main>
-
-
-
-    <!-- Footer -->
     <footer class="container-fluid" style='margin-top: 1000px;'>
         <section class="container">
             <article class="row">
@@ -157,8 +130,6 @@
             </article>
         </section>
     </footer>
-    <!-- end Container main -->
-
 
     
     <!--import Popper bootstrap scripts-->
